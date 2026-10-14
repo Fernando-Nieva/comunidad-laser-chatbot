@@ -1,0 +1,191 @@
+[
+    {
+        "query": "¿Qué parámetros para grabar MDF de 3mm?",
+        "expected": "sufficient",
+        "context": {
+            "material": "MDF",
+            "thickness_mm": 3,
+            "job_type": "grabado"
+        }
+    },
+    {
+        "query": "¿Cómo grabar MDF 3mm con láser 10W?",
+        "expected": "sufficient",
+        "context": {
+            "material": "MDF",
+            "thickness_mm": 3,
+            "machine_power_w": 10,
+            "job_type": "grabado"
+        }
+    },
+    {
+        "query": "Parámetros para cortar MDF 3mm",
+        "expected": "sufficient",
+        "context": {
+            "material": "MDF",
+            "thickness_mm": 3,
+            "job_type": "corte"
+        }
+    },
+    {
+        "query": "Velocidad y potencia para MDF",
+        "expected": "sufficient",
+        "context": {
+            "material": "MDF"
+        }
+    },
+    {
+        "query": "¿Qué configuración usar para acrílico de 5mm?",
+        "expected": "sufficient",
+        "context": {
+            "material": "Acrílico",
+            "thickness_mm": 5
+        }
+    },
+    {
+        "query": "Corte acrílico 3mm láser 10W",
+        "expected": "sufficient",
+        "context": {
+            "material": "Acrílico",
+            "thickness_mm": 3,
+            "machine_power_w": 10,
+            "job_type": "corte"
+        }
+    },
+    {
+        "query": "Grabado en madera de pino",
+        "expected": "sufficient",
+        "context": {
+            "material": "Madera de pino",
+            "job_type": "grabado"
+        }
+    },
+    {
+        "query": "Parámetros para bambú 4mm",
+        "expected": "sufficient",
+        "context": {
+            "material": "Bambú",
+            "thickness_mm": 4
+        }
+    },
+    {
+        "query": "Marcado en anodizado de aluminio",
+        "expected": "sufficient",
+        "context": {
+            "material": "Anodizado de aluminio",
+            "job_type": "marcado"
+        }
+    },
+    {
+        "query": "Cortar cartón corrugado",
+        "expected": "sufficient",
+        "context": {
+            "material": "Cartón",
+            "job_type": "corte"
+        }
+    },
+    {
+        "query": "Grabado en cuero 2mm",
+        "expected": "sufficient",
+        "context": {
+            "material": "Cuero",
+            "thickness_mm": 2,
+            "job_type": "grabado"
+        }
+    },
+    {
+        "query": "¿Qué es el DPI en láser?",
+        "expected": "insufficient",
+        "context": {}
+    },
+    {
+        "query": "Diferencia entre láser diodo y CO2",
+        "expected": "insufficient",
+        "context": {}
+    },
+    {
+        "query": "Historia del láser",
+        "expected": "insufficient",
+        "context": {}
+    },
+    {
+        "query": "¿Para qué sirve el LPI?",
+        "expected": "insufficient",
+        "context": {}
+    },
+    {
+        "query": "Mejores máquinas láser 2024",
+        "expected": "insufficient",
+        "context": {}
+    },
+    {
+        "query": "Parámetros para tela",
+        "expected": "insufficient",
+        "context": {
+            "material": "Tela"
+        }
+    },
+    {
+        "query": "Grabar vidrio con láser diodo",
+        "expected": "insufficient",
+        "context": {
+            "material": "Vidrio"
+        }
+    },
+    {
+        "query": "Cortar acero inoxidable",
+        "expected": "insufficient",
+        "context": {
+            "material": "Acero inoxidable (marcado)",
+            "job_type": "corte"
+        }
+    },
+    {
+        "query": "Parámetros para goma EVA 3mm",
+        "expected": "sufficient",
+        "context": {
+            "material": "Goma EVA",
+            "thickness_mm": 3
+        }
+    },
+    {
+        "query": "Configuración láser 10W MDF",
+        "expected": "sufficient",
+        "context": {
+            "material": "MDF",
+            "machine_power_w": 10
+        }
+    },
+    {
+        "query": "¿Cómo configurar LightBurn para MDF?",
+        "expected": "insufficient",
+        "context": {
+            "material": "MDF",
+            "software": "LightBurn"
+        }
+    },
+    {
+        "query": "Grabado foto en MDF",
+        "expected": "sufficient",
+        "context": {
+            "material": "MDF",
+            "job_type": "grabado"
+        }
+    },
+    {
+        "query": "Corte y grabado MDF 3mm",
+        "expected": "sufficient",
+        "context": {
+            "material": "MDF",
+            "thickness_mm": 3,
+            "job_type": "grabado y corte"
+        }
+    },
+    {
+        "query": "Parámetros para policarbonato",
+        "expected": "insufficient",
+        "context": {
+            "material": "Policarbonato"
+        }
+    }
+]

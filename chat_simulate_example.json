@@ -1,0 +1,53 @@
+{
+  "conversations": [
+    {
+      "name": "Consulta completa MDF con info suficiente",
+      "messages": [
+        "Tengo un Sculpfun S9 de 10W",
+        "¿Qué velocidad para grabar MDF 3mm?"
+      ]
+    },
+    {
+      "name": "Consulta incompleta -> pregunta -> completa",
+      "messages": [
+        "¿Qué velocidad uso?",
+        "MDF 3mm",
+        "Grabado",
+        "Sculpfun S9 10W"
+      ]
+    },
+    {
+      "name": "Material sin experiencias (tela)",
+      "messages": [
+        "¿Parámetros para cortar tela?"
+      ]
+    },
+    {
+      "name": "Material peligroso (PVC)",
+      "messages": [
+        "¿Cómo cortar PVC de 3mm?"
+      ]
+    },
+    {
+      "name": "Consulta conceptual",
+      "messages": [
+        "¿Qué es el DPI en láser?"
+      ]
+    },
+    {
+      "name": "Conversación multi-turno",
+      "messages": [
+        "Tengo un láser de 20W",
+        "¿Velocidad para acrílico 5mm?",
+        "¿Y para corte?",
+        "¿Qué pasa si uso 10W en su lugar?"
+      ]
+    },
+    {
+      "name": "Material con pocas experiencias (vidrio)",
+      "messages": [
+        "¿Cómo grabar vidrio con rotativo?"
+      ]
+    }
+  ]
+}
